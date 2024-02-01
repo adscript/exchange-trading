@@ -1,9 +1,17 @@
-# Expo Router and Tailwind CSS
+# Single page trading apps using websocket
 
-Use [Expo Router](https://docs.expo.dev/router/introduction/) with [Nativewind](https://www.nativewind.dev/v4/overview/) styling.
+this project is build using Expo for React Native
 
 ## 🚀 How to use
 
-```sh
-npx create-expo-app -e with-router-tailwind
-```
+Running this app by using default command from expo
+
+- yarn install
+- yarn start / yarn android / yarn ios
+
+## Library
+
+- React Native Wagmi Charts (react-native-wagmi-charts) for handle candlestick component
+- Socket.io for integrating websocket
+- Gluestack-ui for Ui Library and styling conventions
+

@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-wagmi-charts/src/charts/candle/Crosshair.tsx b/node_modules/react-native-wagmi-charts/src/charts/candle/Crosshair.tsx
+index ca1fa14..5395653 100644
+--- a/node_modules/react-native-wagmi-charts/src/charts/candle/Crosshair.tsx
++++ b/node_modules/react-native-wagmi-charts/src/charts/candle/Crosshair.tsx
+@@ -82,7 +82,7 @@ export function CandlestickChartCrosshair({
+   useAnimatedReaction(
+     () => currentX.value,
+     (data, prevData) => {
+-      if (data !== -1 && data !== prevData && onCurrentXChange) {
++      if (data !== prevData && onCurrentXChange) {
+         runOnJS(onCurrentXChange)(data);
+       }
+     },
