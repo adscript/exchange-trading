@@ -1,7 +1,7 @@
 import React, { ReactNode, createContext, useContext, useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-export const uri = 'http://192.168.0.101:3000'
+export const uri = 'https://heavy-phrygian-olive.glitch.me'
 
 const WebSocketContext = createContext(null);
 
